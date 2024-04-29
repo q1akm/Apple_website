@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import { pauseImg, playImg, replayImg } from '../utils';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/all';
 
 const VideoCarousel = () => {
 
@@ -23,7 +24,10 @@ const VideoCarousel = () => {
     const [loadedData, setLoadedData] = useState([]);
     const {isEnd, startPlay, videoId, isLastVideo, isPlaying} = video;
 
+    // animation part 
 
+    gsap.registerPlugin(ScrollTrigger);
+    
     useGSAP(()=>{
 
         gsap.to('#slider', {
@@ -113,9 +117,8 @@ const VideoCarousel = () => {
                 gsap.ticker.remove(animUpdate)
             }
 
-    }
+        }
        
-        
     },[videoId, startPlay])
 
     const handleProcess = (type, i) => {
@@ -140,8 +143,6 @@ const VideoCarousel = () => {
             setVideo((pre) => ({ ...pre, isPlaying: !pre.
                 isPlaying }));
             break;
-    
-         
     
           default:
             return video;
