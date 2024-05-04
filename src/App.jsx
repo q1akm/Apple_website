@@ -4,6 +4,7 @@ import Model from "./components/Model"
 import Navbar from "./components/Navbar"
 import Features from './components/Features'
 import HowItWork from "./components/HowItWork"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Model/>
       <Features/>
       <HowItWork/>
+      <Footer/>
     </main>
   )
 }
