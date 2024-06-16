@@ -4,8 +4,9 @@ const Footer = () => {
   return (
     <footer className='py-5 sm:px-10 px-5'>
         <div className="screen-max-width">
-            <div>
-                <p className="font-semibold text-gray text-xs">
+            <div className="flex justify-between items-center">
+               <div>
+               <p className="font-semibold text-gray text-xs">
                     More ways to shop:
                     <span className="text-blue underline">
                         {' '}Find An Apple Store {' '}
@@ -19,6 +20,12 @@ const Footer = () => {
                 <p className="font-semibold text-gray text-xs">
                     Or call 083-514-3016
                 </p>
+               </div>
+               <div>
+                <a href="https://github.com/akmweb/Apple_website">
+                    Github
+                </a>
+               </div>
             </div>
 
             <div className="bg-neutral-700 my-5 h-[1px] w-full"/>
