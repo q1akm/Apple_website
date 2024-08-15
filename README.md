@@ -1,7 +1,5 @@
 # This website is built with Vite+React and Tailwindcss 
 
-Responsive Design: modern and minimalist design
-
 Live Demo: https://apple-des1gn.vercel.app/
 
 The website designed by JavaScript Mastery, built with Vite, TailwindCSS, and Three.js for 3D animation, offers a valuable resource for learning React and TailwindCSS. You can freely use the code to enhance your skills
