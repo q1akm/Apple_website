@@ -8,8 +8,3 @@ The website designed by JavaScript Mastery, built with Vite, TailwindCSS, and Th
 <h3>Landing page</h3>
 
 <hr/>
-
-![Apple - Google Chrome 6_9_2024 3_23_36 PM](https://github.com/akmweb/Apple_website/assets/150655160/07063ab3-b6e3-4114-9d8f-631d317f74ef)
-<h3>3d model page</h3>
-
-<hr/>
