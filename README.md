@@ -1,4 +1,4 @@
-# This website is built with Vite+React and Tailwindcss 
+# Apple_website
 
 Live Demo: https://apple-des1gn.vercel.app/
 
